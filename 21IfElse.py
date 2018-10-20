@@ -1,5 +1,6 @@
 # If Else Statements
 
+
 name = 'Jashan'
 if name == 'Jashan':       # Block begins
     print('Hi Jashan')     
@@ -7,13 +8,11 @@ print('Done')
 
 
 print('Enter a name.')
-name = input()
-if name:
+name = input()          
+if name:                   # Blank string is considered as a Truthy values
     print('Thanks for entering a name')
 else:
     print('You did not enter a name')
-
-
 
 
 password = 'Jashan'
@@ -21,11 +20,6 @@ if password == 'JashanBansal':
     print('Access granted')
 else:
     print('Access Denied')
-
-
-
-
-
 
 
 ###########              Order of elif atatements mattered                #######
